@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<title>Ganadería Venecia</title>
+	<link rel="icon" type="image/png" href="img/CV.png ">
+	<style>
+		body{
+			background: url(img/kk.png) no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			font-family: 'Bree Serif', serif;
+
+		}
+		.vacas{
+			max-height: 60vh;
+		}
+		#mini{
+			width: 20%;
+			display: inline-block;
+		}
+		#contenido-selecion{
+			background-color: rgba(98,197,42,0.5);
+		}
+		main{-webkit-box-shadow: 18px -22px 18px -8px rgba(0,0,0,0.19);
+			-moz-box-shadow: 18px -22px 18px -8px rgba(0,0,0,0.19);
+			box-shadow: 18px -22px 18px -8px rgba(0,0,0,0.19);
+			background-color: white;
+		}
+
+		p{
+			margin-top: 2%;
+			text-align: justify;
+		}
+		h2{
+			padding: 6%;
+			margin-bottom: 5%;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<!--Navegador-->
+		<nav class="navbar navbar-light navbar-expand-md  ">
+			<a href="vacas.html" class="navbar-brand"><img src="img/logo.png" alt="logo" width="160" height="150" class="img-responsive d-none d-md-block"><img src="img/CV.png" alt="mini-logo" class="d-md-none ml-auto" id="mini"><span class="d-md-none mr-auto ">Campo Veneciano</span></a>
+			<button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#contenido-selecion" aria-controls="contenido-selecion" aria-label="contenido de seleccion">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse rounded" id="contenido-selecion">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item mx-2"><a href="index.html" class="nav-link">Página principal</a></li>
+					<li class="nav-item mx-2"><a href="productos.html" class="nav-link">Servicios</a></li>
+					<li class="nav-item mx-2"><a href="Nosotros.html" class="nav-link">Sobre nosotros</a></li>
+					<li class="nav-item active mx-2"><a href="#" class="nav-link">Contáctanos</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main class="container">
+		<section>
+			<h1>Contáctanos<span><img src="https://image.flaticon.com/icons/svg/32/32473.svg" alt="contactanos-logo" class="img-fluid m-2" width="5%"></span></h1>
+			<p>A continuacion puedes obtener nuestros contactos a través de línea telefónica o bien puedes dejar tus datos para contactarte y enviarte información relevante del sitio.</p>
+		</section>
+		<div class="row">
+			<div class="mb-5 col-5 bg-success ml-5 text-white rounded text-center">
+				<span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1200px-WhatsApp_logo-color-vertical.svg.png" alt="WhatsApp_logo" class="img-fluid" width="5%"></span>
+					31366264447
+				
+			</div>
+			<div class="mb-5 col-5 offset-1 bg-success rounded text-white text-center">
+				<span><img src="https://images.vexels.com/media/users/3/157620/isolated/preview/28323eba1d9f71acc3cc92f0e043fc5c-icono-de-tel--fono-blanco-y-negro-by-vexels.png" alt="WhatsApp_logo" class="img-fluid" width="5%"></span>
+					73133658
+			</div>
+		</div>
+		<form class="needs-validation p-3" novalidate>
+		  <div class="form-row">
+		    <div class="col-md-4 mb-3">
+		      <label for="validationCustom01">Nombre</label>
+		      <input type="text" class="form-control" id="validationCustom01" placeholder="Nombres"  required>
+		      <div class="valid-feedback">
+		        Correcto
+		      </div>
+		      <div class="invalid-feedback">
+		          Por favor,escriba su nombre de pila.
+		        </div>
+		    </div>
+		    <div class="col-md-4 mb-3">
+		      <label for="validationCustom02">Apellidos</label>
+		      <input type="text" class="form-control" id="validationCustom02" placeholder="Apellidos" required>
+		      <div class="valid-feedback">
+		        Correcto
+		      </div>
+		        <div class="invalid-feedback">
+		          Por favor,escriba sus apellidos.
+		        </div>
+		    </div>
+		    <div class="col-md-4 mb-3">
+		      <label for="validationCustomUsername">Correo electrónico</label>
+		      <div class="input-group">
+		        <div class="input-group-prepend">
+		        </div>
+		        <input type="email" class="form-control" id="validationCustomUsername" placeholder="Correo electrónico" aria-describedby="inputGroupPrepend" required>
+		        <div class="invalid-feedback">
+		          Por favor,escriba un correo válido.
+		        </div>
+		        <div class="valid-feedback">
+		        Correo válido.
+		      </div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <div class="form-check">
+		      <input class="form-check-input" type="checkbox" value="Roberto" id="invalidCheck" required>
+		      <label class="form-check-label" for="invalidCheck">
+		        Acepta los <a href="#" onclick="alert('Términos y condiciones: La empresa no venderá información de datos personales como nombres y correo electrónico a terceros, se mantiene una clausula de confiabilidad........')">términos y condiciones de la página</a>
+		      </label>
+		      <div class="invalid-feedback">
+		Debes aceptar antes de enviar</div>
+		    </div>
+		  </div>
+		  <button class="btn btn-primary" type="submit">Enviar</button>
+		</form>
+		<script>
+					(function() {'use strict';
+					window.addEventListener('load', function() {
+						var forms = document.getElementsByClassName('needs-validation');
+						var validation = Array.prototype.filter.call(forms, function(form) {
+							form.addEventListener('submit', function(event) {
+								if (form.checkValidity() === false) {
+									event.preventDefault();
+									event.stopPropagation();
+								}
+								form.classList.add('was-validated');
+								 }, false);
+						});
+						 }, false);
+				})();
+			</script>
+	</main>	
+		<!--Pie de página-->
+		<footer class="footer bg-dark text-white-50 stick-bottom" id="sticky-footer">
+			<div class="container text-center">
+				 &copy;2020.Campo Veneciano, todos los derechos reservados
+			</div>
+		</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
